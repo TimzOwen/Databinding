@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="product_image_view_height">96dp</dimen>
+    <dimen name="product_image_view_width">96dp</dimen>
+    <dimen name="margin_standard">16dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="product_image_view_detail_height">160dp</dimen>
+</resources>
