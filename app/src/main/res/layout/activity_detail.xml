@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="product"
+            type="example.databinding.model.Product" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.DetailActivity">
+
+        <ImageView
+            android:id="@+id/product_picture_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/product_image_view_detail_height"
+            android:contentDescription="@string/product_image_content_description"
+            android:scaleType="fitXY"
+            app:setImage="@{product.image}"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/product_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_standard"
+            android:text="@string/label_product_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <TextView
+            android:id="@+id/product_title_value_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_standard"
+            android:text="@{product.title}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="Some Product" />
+
+        <TextView
+            android:id="@+id/product_description_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_standard"
+            android:text="@string/label_description"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <TextView
+            android:id="@+id/product_description_value_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_standard"
+            android:text="@{product.description}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="Some Product" />
+
+        <TextView
+            android:id="@+id/product_price_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_standard"
+            android:text="@string/label_price"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <TextView
+            android:id="@+id/product_price_value_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_standard"
+            android:text="@{String.format(@string/price_ksh_suffix,product.price)}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="2000 Ksh" />
+
+    </LinearLayout>
+
+</layout>

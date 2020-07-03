@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DataBindingGettingStarted.iml" filepath="$PROJECT_DIR$/DataBindingGettingStarted.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Databinding.iml" filepath="$PROJECT_DIR$/.idea/modules/Databinding.iml" group="Databinding" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Databinding-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Databinding-app.iml" group="Databinding/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
