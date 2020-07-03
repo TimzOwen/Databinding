@@ -6,7 +6,7 @@ package example.databinding.helpers;
  * Using enums for keys makes is easier to know what key to expect and removes errors brought about
  * by writing the string constants yourself.
  */
-public class Constants {
+public abstract class Constants {
     public enum Keys {
         PRODUCT_DETAIL
     }
