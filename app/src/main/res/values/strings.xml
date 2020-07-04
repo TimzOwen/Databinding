@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Data Binding</string>
+
+    <!--Main Activity-->
+    <string name="product_image_content_description">Product Image</string>
+
+    <!-- Detail Activity-->
+    <string name="label_product_details">Product Details</string>
+    <string name="label_product_name">Product Name</string>
+    <string name="label_description">Description</string>
+    <string name="label_price">Price</string>
+    <string name="price_ksh_suffix">%d Ksh.</string>
+</resources>
