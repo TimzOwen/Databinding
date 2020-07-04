@@ -16,6 +16,7 @@ in code.
 
 <img src="art/1.png" width="200"/> <img src="art/2.png" width="200"/>
 
+<<<<<<< HEAD
 With dataBinding you don't need to make use of 
 ```textView = findViewById(R.id.tvMyID)```
 Instead you just have to do a direct castout from your layout in the textview as
@@ -35,6 +36,8 @@ for android studion 4+ you can use
     }
 ```
 
+=======
+>>>>>>> f09ca853e3ef55068253736d958fb68b03ad32c5
 ### Reference
 
 - [DataBinding](https://developer.android.com/topic/libraries/data-binding)

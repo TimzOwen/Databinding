@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
     package="owen.databinding">
+=======
+    package="example.databinding">
+>>>>>>> f09ca853e3ef55068253736d958fb68b03ad32c5
 
     <application
         android:allowBackup="true"
@@ -12,10 +16,17 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
         <activity
+<<<<<<< HEAD
             android:name="owen.databinding.ui.DetailActivity"
             android:label="@string/label_product_details"
             android:parentActivityName="owen.databinding.ui.MainActivity" />
         <activity android:name="owen.databinding.ui.MainActivity">
+=======
+            android:name=".ui.DetailActivity"
+            android:label="@string/label_product_details"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity android:name=".ui.MainActivity">
+>>>>>>> f09ca853e3ef55068253736d958fb68b03ad32c5
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -5,7 +5,11 @@
 
         <variable
             name="product"
+<<<<<<< HEAD
             type="owen.databinding.model.Product" />
+=======
+            type="example.databinding.model.Product" />
+>>>>>>> f09ca853e3ef55068253736d958fb68b03ad32c5
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"

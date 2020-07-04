@@ -36,6 +36,7 @@
       <option name="name" value="$USER_HOME$/Android/Sdk/extras/android/m2repository" />
       <option name="url" value="file:$USER_HOME$/Android/Sdk/extras/android/m2repository/" />
     </remote-repository>
+<<<<<<< HEAD
     <remote-repository>
       <option name="id" value="C:\Users\Owe\AppData\Local\Android\Sdk\extras\m2repository" />
       <option name="name" value="C:\Users\Owe\AppData\Local\Android\Sdk\extras\m2repository" />
@@ -51,5 +52,7 @@
       <option name="name" value="C:\Users\Owe\AppData\Local\Android\Sdk\extras\android\m2repository" />
       <option name="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository" />
     </remote-repository>
+=======
+>>>>>>> f09ca853e3ef55068253736d958fb68b03ad32c5
   </component>
 </project>
